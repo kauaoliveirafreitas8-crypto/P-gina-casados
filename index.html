@@ -4,6 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Google AI Studio App</title>
+    <script>
+      // Monkey patch JSON.stringify to gracefully handle circular structures (like HTML elements and React fibers)
+      (function() {
+        var originalStringify = JSON.stringify;
+        JSON.stringify = function(value, replacer, space) {
+          try {
+            return originalStringify(value, replacer, space);
+          } catch (e) {
+            if (e && (e.message || "").toLowerCase().includes("circular")) {
+              var cache = new Set();
+              var result = originalStringify(value, function(key, val) {
+                if (typeof val === "object" && val !== null) {
+                  if (cache.has(val)) {
+                    return "[Circular]";
+                  }
+                  cache.add(val);
+                }
+                return replacer ? replacer(key, val) : val;
+              }, space);
+              cache.clear();
+              return result;
+            }
+            throw e;
+          }
+        };
+      })();
+    </script>
+    <script>
+      window.pixelId = "6a15f7735ea972bf2985a976";
+      var a = document.createElement("script");
+      a.setAttribute("async", "");
+      a.setAttribute("defer", "");
+      a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+      document.head.appendChild(a);
+    </script>
+    <script
+      src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+      data-utmify-prevent-xcod-sck
+      data-utmify-prevent-subids
+      async
+      defer
+    ></script>
   </head>
   <body>
     <div id="root"></div>

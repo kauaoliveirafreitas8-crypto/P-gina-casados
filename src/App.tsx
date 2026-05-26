@@ -183,7 +183,7 @@ export default function App() {
 
             <div className="my-4 overflow-hidden rounded-2xl border border-stone-200/80 shadow-md bg-stone-100 max-w-2xl mx-auto">
               <img 
-                src="/src/assets/images/casal_biblia_restauracao_1779810559742.png" 
+                src="https://i.ibb.co/p6r0kJFK/img.jpg" 
                 alt="Casal cristão orando sobre uma Bíblia aberta para cura e restauração emocional" 
                 className="w-full h-auto aspect-video object-cover hover:scale-[1.02] transition-transform duration-300"
                 referrerPolicy="no-referrer"
@@ -389,7 +389,7 @@ export default function App() {
               <div className="space-y-3">
                 <div className="aspect-[4/3] overflow-hidden bg-stone-100 border-b border-stone-200/60">
                   <img 
-                    src="/src/assets/images/casal_biblia_restauracao_1779810559742.png" 
+                    src="https://i.ibb.co/p6r0kJFK/img.jpg" 
                     alt="Bônus 1: Diagnóstico Relacional Clássico" 
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                     referrerPolicy="no-referrer"
@@ -413,7 +413,7 @@ export default function App() {
               <div className="space-y-3">
                 <div className="aspect-[4/3] overflow-hidden bg-stone-100 border-b border-stone-200/60">
                   <img 
-                    src="/src/assets/images/bonus_finance_simple_1779815949917.png" 
+                    src="https://i.ibb.co/7JZYFrY0/7eaeebd8-b9bd-44aa-956d-ca71cb0f3b91.jpg" 
                     alt="Bônus 2: Blindagem de Finanças de Casais" 
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                     referrerPolicy="no-referrer"
@@ -437,7 +437,7 @@ export default function App() {
               <div className="space-y-3">
                 <div className="aspect-[4/3] overflow-hidden bg-stone-100 border-b border-stone-200/60">
                   <img 
-                    src="/src/assets/images/bonus_dynamics_simple_1779815968939.png" 
+                    src="https://i.ibb.co/1GcKkrm9/8cf7d0d7-7fec-404b-ae84-905b7df08007.jpg" 
                     alt="Bônus 3: Dinâmicas Para Casais" 
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                     referrerPolicy="no-referrer"
@@ -461,7 +461,7 @@ export default function App() {
               <div className="space-y-3">
                 <div className="aspect-[4/3] overflow-hidden bg-stone-100 border-b border-stone-200/60">
                   <img 
-                    src="/src/assets/images/bonus_challenge_simple_1779815988715.png" 
+                    src="https://i.ibb.co/rRgGqy6j/219322e6-a0f4-490b-95a3-ce85eb264c10.jpg" 
                     alt="Bônus 4: Desafio 7 Dias de Reconexão" 
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                     referrerPolicy="no-referrer"
@@ -535,7 +535,7 @@ export default function App() {
               {/* Duplicated premium image above the section name */}
               <div className="my-4 overflow-hidden rounded-2xl border border-stone-800 shadow-md bg-stone-950/40 max-w-md mx-auto">
                 <img 
-                  src="/src/assets/images/casal_biblia_restauracao_1779810559742.png" 
+                  src="https://i.ibb.co/p6r0kJFK/img.jpg" 
                   alt="Casal cristão orando sobre uma Bíblia aberta para cura e restauração emocional" 
                   className="w-full h-auto aspect-video object-cover"
                   referrerPolicy="no-referrer"
