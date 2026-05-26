@@ -1,0 +1,6 @@
+{
+  "name": "Casados para Sempre - Kit Terapêutico",
+  "description": "Uma página de vendas e kit de ferramentas terapêuticas em formato de aplicativo extraídas da Bíblia para casais.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
