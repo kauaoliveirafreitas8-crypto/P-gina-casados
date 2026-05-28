@@ -160,7 +160,7 @@ export default function App() {
       <div className="bg-amber-900 text-amber-200 text-xs py-2.5 px-4 font-mono font-medium text-center flex flex-col sm:flex-row justify-center items-center gap-2 border-b border-amber-800 tracking-wide">
         <span className="flex items-center gap-1.5 font-bold uppercase shrink-0 mx-auto">
           <Clock className="w-4.5 h-4.5 text-amber-400 animate-pulse" /> 
-          Oferta de lançamento: Desconto HOJE (26/05/2026)
+          OFERTA DE LANÇAMENTO: DESCONTO SOMENTE HOJE!
         </span>
       </div>
 
